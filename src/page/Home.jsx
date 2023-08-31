@@ -76,7 +76,7 @@ function Home() {
         <div className="flex justify-center font-semibold text-xl md:text-2xl tracking-widest text-[Raleway] p-10">
           <h1 className="uppercase">we are fly a winning agency</h1>
         </div>
-        <div className="">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
           {AgencyData.map((items, id) => (
             <div key={id} className="  w-full h-full relative ">
               <div className="card z-[2] absolute   text-white bg-black/20 flex flex-col justify-center items-center w-full h-full transition-all ease-in-out ">
