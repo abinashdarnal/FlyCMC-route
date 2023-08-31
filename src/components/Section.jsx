@@ -10,7 +10,7 @@ function Section() {
     <>
       <div className="w-full h-screen">
         <Routes>
-          <Route path="/" element={<Home />}></Route>
+          <Route exact path="/FlyCMC-route" element={<Home />}></Route>
           <Route path="/blog" element={<Blog />}></Route>
           <Route path="/page error" element={<PageError />}></Route>
           <Route path="/blog/:title" element={<BlogDetails />}></Route>
